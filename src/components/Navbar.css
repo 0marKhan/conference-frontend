@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  background-color: #1976d2;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+li {
+  margin: 0 1rem;
+}
+
+input[type="text"] {
+  outline: none;
+  padding: 0.5rem;
+}
+
+.search-box {
+  padding-top: 0.6rem;
+}
+
+.right-side {
+  display: flex;
+}
+
+.drop-down {
+  margin: 0 1rem;
+}
+
+.dropdown-body {
+  display: flex;
+}

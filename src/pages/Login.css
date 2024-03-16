@@ -1,0 +1,44 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+  background-color: #fff;
+  max-width: 400px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-body {
+  margin-top: 4rem;
+}
+
+.textbox,
+.login-button {
+  margin-top: 2rem;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  color: gray;
+}
+
+.sign-up-link a {
+  color: #000;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.sign-up-link a:hover {
+  color: #1976d2;
+  cursor: pointer;
+}
